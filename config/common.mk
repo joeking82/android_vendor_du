@@ -70,6 +70,14 @@ PRODUCT_COPY_FILES += \
 # Packages
 include vendor/du/config/packages.mk
 
+# Magisk Manager
+PRODUCT_PACKAGES += \
+    MagiskManager
+
+# Copy Magisk zip
+PRODUCT_COPY_FILES += \
+    vendor/du/prebuilt/common/magisk.zip:system/addon.d/magisk.zip
+
 # Branding
 include vendor/du/config/branding.mk
 

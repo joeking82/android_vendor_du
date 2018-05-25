@@ -1,6 +1,6 @@
 include $(CLEAR_VARS)
-LOCAL_MODULE := MagiskManager
-LOCAL_MODULE_OWNER := rr
+LOCAL_MODULE := MagiskManager-v5.7.0
+LOCAL_MODULE_OWNER := du
 LOCAL_SRC_FILES := app/$(LOCAL_MODULE).apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .apk
